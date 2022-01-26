@@ -21,7 +21,7 @@ function App() {
   }
 
 
-  console.log(questionData)
+
   const updatedQuestions = questionData.map(item => {
     return <Questions 
       key={nanoid()}

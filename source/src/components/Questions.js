@@ -19,7 +19,6 @@ export default function Questions(props) {
         id="inc_answ"
         className="btns"
         onClick={(e) => {
-          console.log(e.target);
           e.target.classList.add("rred");
           e.target.disabled = true;
         }}
