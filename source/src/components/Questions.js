@@ -42,7 +42,7 @@ export default function Questions(props) {
   );
 
   return (
-    <section>
+    <section className="my-section-container">
 
     <div className="uber--container">
       <p>{atob(props.question )}</p>
